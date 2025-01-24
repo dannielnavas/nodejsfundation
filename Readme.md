@@ -140,6 +140,23 @@ Modify the `answer` function in the the `answer.js` file to receive a parameter 
 
 ### module system
 
+Being the `answer.js` file a CommonJS module to be executed as the main script of a Node.js program, using the relevant method on the `require` API, edit the `answer.js` file to log out to the console an array with all the paths available to require modules.
+
+This is a **CommonJS Modules** question only, this question cannot be answered with an **ECMAScript Modules** approach.
+
 ## task 11
 
 ### Process
+
+Edit the `answer.js` to log out to the console the path of the current user's home directory if the platform where the script is executed is Linux, otherwise print the operating system's default directory for temporary files.
+
+## task 12
+
+### Package json
+
+Modify the `package.json` in this directory to depend on the module `colorette`; but not from the registry but from its git repository, using the tagged version `1.4.0` present in the repository.
+
+Once the `package.json` has been updated:
+
+1. Ensure the above package is properly installed in the local `node_modules` directory before submitting your answer.
+2. Edit the `answer.js` file to require the module. No other action is needed.
