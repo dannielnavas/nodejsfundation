@@ -79,3 +79,17 @@ The emitter.js file exports an Event Emitter, which is required to the emitter v
 Complete the answer.js file to watch emitter for any errors. If an error does occur exit the process with the exit code of 1.
 
 If no errors occur the process should exit as normal.
+
+## task 6
+
+### cli
+
+command line interface nodejs
+
+The `answer.txt` file contains the following:
+
+```sh
+node
+```
+
+Alter the answer.txt file so that if the contents of answer.txt would be a command that were to print in the console the string hello and then exit, do it without executing any JavaScript file.
