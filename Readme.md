@@ -175,3 +175,19 @@ Using the **test framework** of your choice (or no **framework**), complete `ans
 
 Configure `package.json` so that `npm test` executes the tests in `answer.js` correctly.
 **Failure to do so will result in a zero grade.**
+
+## task 14
+
+### Security
+
+The `answer.js` file contains the following:
+
+```javascript
+'use strict'
+
+const { PORT } = process.env
+
+function login (user, passwd) {
+  return user === 'node' && passwd === 'developer'
+}
+```
